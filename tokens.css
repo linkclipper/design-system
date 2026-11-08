@@ -1,0 +1,39 @@
+/* LinkClipper design tokens — mirrored from dashboard/dashboard.css (v0.3.0)
+ * Product CSS is the source of truth; update here in the same change. */
+
+:root {
+  /* ---- ink ---- */
+  --ink: #eef0ff;                        /* primary text */
+  --ink-dim: rgba(238, 240, 255, 0.6);   /* secondary text */
+  --sub: #9aa3c7;                        /* metadata */
+
+  /* ---- brand ---- */
+  --brand1: #7b6cff;                     /* primary hook */
+  --brand2: #b46bff;                     /* gradient partner */
+  --brand-ink: #cabcff;                  /* brand text on dark */
+  --brand-tint: rgba(124, 108, 255, 0.16); /* active pill fill */
+  --brand-line: rgba(124, 108, 255, 0.35); /* active pill border */
+
+  /* ---- glass surfaces ---- */
+  --stroke: rgba(255, 255, 255, 0.11);   /* 1px hairline borders */
+  --stroke-hi: rgba(255, 255, 255, 0.22);/* hover / focus borders */
+  --glass-hi: rgba(255, 255, 255, 0.08); /* gradient top on panels */
+  --glass-lo: rgba(255, 255, 255, 0.13); /* gradient bottom on panels */
+  /* panel surface: linear-gradient(170deg, rgba(26,31,62,.9), rgba(15,19,40,.84)) */
+
+  /* ---- status ---- */
+  --ok:  #34d399;   solid: #10b981;      /* play/preview */
+  --inf: #7cb0ff;   solid: #3b82f6;      /* open */
+  --bad: #fb7185;   solid: #ef4444;      /* delete */
+
+  /* ---- depth ---- */
+  --glow: 0 10px 40px rgba(98, 62, 255, 0.22);
+  --radius: 16px;
+
+  /* ---- aurora page background (fixed, never animated) ---- */
+  /* radial-gradient(1000px 640px at 12% -8%,  rgba(97,79,255,.34), transparent 62%)
+     radial-gradient( 780px 520px at 88%  -4%, rgba(168,85,247,.26), transparent 60%)
+     radial-gradient( 900px 640px at 72% 108%, rgba(236,72,153,.16), transparent 58%)
+     radial-gradient( 600px 500px at   4%  96%, rgba(14,165,233,.14), transparent 55%)
+     base color #080b18 */
+}
